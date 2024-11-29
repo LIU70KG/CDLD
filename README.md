@@ -20,8 +20,7 @@ Operation process:
 - 3: Trimodal dataset DAIC_woz training code: folder 'src_AVEC2014'	
 
 
-
-- 4:  Dataset:
+## Dataset
   Obtain CMDC, DAIC_woz, SEARCH and AVEC_2014 datasets from official channels and put them into the datasets file.
   
   Specific operation tips can be found in the datasets file.
@@ -37,5 +36,5 @@ Operation process:
   -	数据处理流程：dataset/SEARCH/SEARCH_process-master
  
   - 4: CMDC数据集申请官网：https://ieee-dataport.org/open-access/chinese-multimodal-depression-corpus
-  - 	官方提供数据集处理后的各模态特征 各
-  - 	模态合并对齐序列化成类似CMDC.png代码：cmdc_data_pkl.py
+  -	官方提供数据集处理后的各模态特征 
+  -	数据处理流程：dataset/CMDC/cmdc_data_pkl.py
