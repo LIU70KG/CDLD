@@ -6,7 +6,7 @@ The relevant code for the paper "ILOC: Combining Ordered Interval Localization a
 
 - Python >= 3.9
 - PyTorch ==2.2.1+cu118
-Specific environmental requirements can be found in the file "requirements. txt"
+- Specific environmental requirements can be found in the file "requirements. txt"
 
 ## Train
 Operation process:
