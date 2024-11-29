@@ -11,27 +11,19 @@ The relevant code for the paper "ILOC: Combining Ordered Interval Localization a
 ## Train
 Operation process:
 
-- 1:Take the pretrained model xxx.pth file of CLLNet to the model folder
+
+- 1: Bimodal dataset SEARCH training code: folder 'src_SEARCH'
  
- 	The pretrained network of ILOC in DAIC_woz can be downloaded at this  [link](https://drive.google.com/drive/folders/1JaaqT_auoMuO8K7VPjq-REX1E7ZBLiYV?usp=drive_link)
  
 	
-- 2:Take the pretrained model msceleb to the src folder
-The pretrained network can be downloaded at this [link](https://drive.google.com/file/d/18oYDrZJnf4y9IkhSDZ6AO3nlRj_IvMAk/view?usp=sharing)
+- 2: Trimodal dataset DAIC_woz training code: folder 'src_DAIC'
+
+  	The pretrained network of ILOC in DAIC_woz can be downloaded at this  [link](https://drive.google.com/drive/folders/1JaaqT_auoMuO8K7VPjq-REX1E7ZBLiYV?usp=drive_link)
 
 
-- 3:  Put the xxx.py file in the model folder to the src folder, and then run this file.
 
-- 4:  Dataset:
-  Obtain RAF-DB, AffectNet,SFEW and CAER-S datasets from official channels and put them into the datasets file.
+- 3:  Dataset:
+  Obtain CMDC, DAIC_woz, SEARCH and AVEC_2014 datasets from official channels and put them into the datasets file.
   
-  such as:
-  Download basic emotions dataset of [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), and make sure it have a structure like following:
-```
-- datasets/raf-basic/
-         EmoLabel/
-             list_patition_label.txt
-         Image/aligned/
-	     train_00001_aligned.jpg
-             test_0001_aligned.jpg
-             ...
+  Specific operation tips can be found in the datasets file.
+
