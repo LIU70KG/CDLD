@@ -11,18 +11,17 @@ The relevant code for the paper "ILOC: Combining Ordered Interval Localization a
 ## Train
 Operation process:
 
-
-- 1: Bimodal dataset SEARCH training code: folder 'src_SEARCH'
- 
+- 1: Bimodal dataset SEARCH training code: folder 'src_SEARCH_5.87'
  
 	
-- 2: Trimodal dataset DAIC_woz training code: folder 'src_DAIC'
-
-  	The pretrained network of ILOC in DAIC_woz can be downloaded at this  [link](https://drive.google.com/drive/folders/1JaaqT_auoMuO8K7VPjq-REX1E7ZBLiYV?usp=drive_link)
+- 2: Trimodal dataset DAIC_woz training code: folder 'src_DAIC_3.85'
 
 
+- 3: Trimodal dataset DAIC_woz training code: folder 'src_AVEC2014'	
 
-- 3:  Dataset:
+
+
+- 4:  Dataset:
   Obtain CMDC, DAIC_woz, SEARCH and AVEC_2014 datasets from official channels and put them into the datasets file.
   
   Specific operation tips can be found in the datasets file.
