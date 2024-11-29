@@ -1,0 +1,23 @@
+1：项目SEARCH_process-master里的1_audio_enhancement.py ：
+
+第一步：利用frcrn算法对wav音频文件去除背景噪声，处理后的音频仍然为wav文件。结果保存在'/home/liu70kg/PycharmProjects/Depression/SEARCH/denoised_audio'
+
+
+2：项目torchvggish-master里的main.py：
+依据在YouTube-8M预训练的VGGish模型，对各样本的语音提取n*128的特征，特征保存在/home/liu70kg/PycharmProjects/Depression/SEARCH/denoised_audio_feature_read。
+为什么是n*128?因为0.96秒的语音特征是1*128，如果单次回答是5.3秒，那特征就是5*128。
+torchvggish-master下载入口：。
+[VGGish](https://github.com/LIU70KG/torchvggish/tree/main/torchvggish-master)<sup>[1]</sup>, 
+
+
+3：项目SEARCH_process-master里的3_process_Data_information.py：
+依据openface特征，提取特定的特征，例如feature_choice = 'AU+Gaze+Rigid+Pose'（代码里可以自由选择）。
+与音频特征文件对齐，如果音频特征为42*128，则视觉特征提却也为42* ( d(feature_choice)*3 ),即每0.96S提取均等提取3帧特征并对齐。
+对齐后的样本保存为："( 视觉特征(/0.96s), 语音特征(/0.96s), 样本编号，分数，类别 ）"
+保存位置：/home/liu70kg/PycharmProjects/Depression/SEARCH/SEARCH_fea_all_concat.pkl
+
+4：项目SEARCH_process-master里的4_data_process_train_test.py：
+对样本进行5 折交叉验证，循环获取每折的训练集和测试集，并保存到文件夹'/home/liu70kg/PycharmProjects/Depression/SEARCH/SEARCH'下
+    # 定义文件名
+    train_filename = f'SEARCH_data_VA_modal_{fold}_train.pkl'
+    test_filename = f'SEARCH_data_VA_modal_{fold}_test.pkl'

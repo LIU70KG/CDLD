@@ -1,0 +1,53 @@
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.9235334396362305------------ | RMSE:10.289783477783203 | Pearson:0.27499521537114024 |
+precision:0.5944700460829493 | recall:0.5386221294363257 | f1:0.5651697699890471 | accuracy:0.5890269151138716 | multiclass_acc:0.4699792960662526 |
+best_mae:6.9235334396362305 | best_rmse:10.13901138305664 | best_f1:0.6681715575620768 | best_accuracy:0.6325051759834368 | best_multiclass_acc:0.4730848861283644 |
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------9.004250526428223------------ | RMSE:12.393770217895508 | Pearson:0.15178555108831673 |
+precision:0.6071428571428571 | recall:0.7098121085594989 | f1:0.6544754571703562 | accuracy:0.6283643892339544 | multiclass_acc:0.40165631469979296 |
+best_mae:9.004250526428223 | best_rmse:12.393770217895508 | best_f1:0.6676492262343404 | best_accuracy:0.6283643892339544 | best_multiclass_acc:0.41200828157349895 |
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------9.004250526428223------------ | RMSE:12.393770217895508 | Pearson:0.15178555108831673 |
+precision:0.6071428571428571 | recall:0.7098121085594989 | f1:0.6544754571703562 | accuracy:0.6283643892339544 | multiclass_acc:0.40165631469979296 |
+best_mae:9.004250526428223 | best_rmse:12.393770217895508 | best_f1:0.6676492262343404 | best_accuracy:0.6283643892339544 | best_multiclass_acc:0.41200828157349895 |
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------9.004250526428223------------ | RMSE:12.393770217895508 | Pearson:0.15178555108831673 |
+precision:0.6071428571428571 | recall:0.7098121085594989 | f1:0.6544754571703562 | accuracy:0.6283643892339544 | multiclass_acc:0.40165631469979296 |
+best_mae:9.004250526428223 | best_rmse:12.393770217895508 | best_f1:0.6676492262343404 | best_accuracy:0.6283643892339544 | best_multiclass_acc:0.41200828157349895 |
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.9235334396362305------------ | RMSE:10.289783477783203 | Pearson:0.27499521537114024 |
+precision:0.5944700460829493 | recall:0.5386221294363257 | f1:0.5651697699890471 | accuracy:0.5890269151138716 | multiclass_acc:0.4699792960662526 |
+best_mae:6.9235334396362305 | best_rmse:10.13901138305664 | best_f1:0.6681715575620768 | best_accuracy:0.6325051759834368 | best_multiclass_acc:0.4730848861283644 |
+-------------------------------
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:2.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.315715789794922------------ | RMSE:9.484724998474121 | Pearson:0.392544839410926 |
+precision:0.7531645569620253 | recall:0.4968684759916493 | f1:0.5987421383647799 | accuracy:0.6697722567287785 | multiclass_acc:0.5445134575569358 |
+best_mae:6.315715789794922 | best_rmse:9.003921508789062 | best_f1:0.6830065359477124 | best_accuracy:0.6956521739130435 | best_multiclass_acc:0.5807453416149069 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------5.87860107421875------------ | RMSE:8.240001678466797 | Pearson:0.5387076514473655 |
+precision:0.7901554404145078 | recall:0.6367432150313153 | f1:0.7052023121387283 | accuracy:0.7360248447204969 | multiclass_acc:0.5279503105590062 |
+best_mae:5.87860107421875 | best_rmse:8.160165786743164 | best_f1:0.7508455467869222 | best_accuracy:0.7712215320910973 | best_multiclass_acc:0.5548654244306418 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:0.5 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------8.635613441467285------------ | RMSE:10.124162673950195 | Pearson:0.4578200401951116 |
+precision:0.49585921325051757 | recall:1.0 | f1:0.6629757785467129 | accuracy:0.49585921325051757 | multiclass_acc:0.18426501035196688 |
+best_mae:8.635613441467285 | best_rmse:10.124162673950195 | best_f1:0.6629757785467129 | best_accuracy:0.505175983436853 | best_multiclass_acc:0.21842650103519667 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:2.0 | order_center_weight:2.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------5.968313217163086------------ | RMSE:9.034340858459473 | Pearson:0.4477947587938779 |
+precision:0.7677419354838709 | recall:0.4968684759916493 | f1:0.6032953105196451 | accuracy:0.6759834368530021 | multiclass_acc:0.582815734989648 |
+best_mae:5.968313217163086 | best_rmse:8.605793952941895 | best_f1:0.6885964912280702 | best_accuracy:0.7060041407867494 | best_multiclass_acc:0.582815734989648 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------5.87860107421875------------ | RMSE:8.240001678466797 | Pearson:0.5387076514473655 |---------------------------------------
+precision:0.7901554404145078 | recall:0.6367432150313153 | f1:0.7052023121387283 | accuracy:0.7360248447204969 | multiclass_acc:0.5279503105590062 |
+best_mae:5.87860107421875 | best_rmse:8.160165786743164 | best_f1:0.7508455467869222 | best_accuracy:0.7712215320910973 | best_multiclass_acc:0.5548654244306418 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------5.911538887023926------------ | RMSE:8.62680139541626 | Pearson:0.5951117609238031 |
+precision:0.9658703071672355 | recall:0.5908141962421712 | f1:0.7331606217616581 | accuracy:0.7867494824016563 | multiclass_acc:0.556935817805383 |
+best_mae:5.611538887023926 | best_rmse:7.72680139541626 | best_f1:0.9329073482428115 | best_accuracy:0.9347826086956522 | best_multiclass_acc:0.6200828157349897 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.644371509552002------------ | RMSE:8.879715919494629 | Pearson:0.438190556900816 |
+precision:0.5478991596638656 | recall:0.6805845511482255 | f1:0.6070763500931099 | accuracy:0.5631469979296067 | multiclass_acc:0.34782608695652173 |
+best_mae:6.644371509552002 | best_rmse:8.879715919494629 | best_f1:0.6638830897703549 | best_accuracy:0.5848861283643892 | best_multiclass_acc:0.37577639751552794 |
+sim_weight:1.0 | class_weight:20.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.644371509552002------------ | RMSE:8.879715919494629 | Pearson:0.438190556900816 |
+precision:0.5478991596638656 | recall:0.6805845511482255 | f1:0.6070763500931099 | accuracy:0.5631469979296067 | multiclass_acc:0.34782608695652173 |
+best_mae:6.644371509552002 | best_rmse:8.879715919494629 | best_f1:0.6638830897703549 | best_accuracy:0.5848861283643892 | best_multiclass_acc:0.37577639751552794 |

@@ -1,0 +1,10 @@
+1：
+DAIC-woz数据集由于版权问题，需要自行去官网申请。
+
+DAIC-WOZ数据库： 官网：https://dcapswoz.ict.usc.edu/
+
+下载打印协议签署后发送到boberg@ict.usc.edu
+
+2：
+数据处理流程：
+https://github.com/LIU70KG/daic_woz_processing_master

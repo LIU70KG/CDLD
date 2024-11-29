@@ -1,0 +1,4 @@
+1：CMDC数据集申请链接 
+https://ieee-dataport.org/open-access/chinese-multimodal-depression-corpus
+2: 官方提供数据集处理后的各模态特征
+3：各模态合并对齐序列化成类似CMDC.png代码：cmdc_data_pkl.py
