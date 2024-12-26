@@ -1,6 +1,6 @@
 ### ILOC
 
-The relevant code for the paper "ILOC: Combining Ordered Interval Localization and Offset Calculation for Multimodal Depression Detection".
+The relevant code for the paper "HS-Net: Heterogeneity Separation Network for Multimodal Depression Estimation".
 
 ## Requirements
 
