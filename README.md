@@ -1,6 +1,6 @@
 ### ILOC
 
-The relevant code for the paper "HS-Net: Heterogeneity Separation Network for Multimodal Depression Estimation".
+The relevant code for the paper "SHFL: Symptom Heterogeneity Representation Learning for Multimodal Depression Estimation".
 
 ## Requirements
 
