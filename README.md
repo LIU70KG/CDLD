@@ -1,4 +1,4 @@
-### ILOC
+### CDLD
 
 The relevant code for the paper "Mitigating Symptom Heterogeneity in Multimodal Depression Estimation via Level Separation and Deviation Regression".
 
