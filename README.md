@@ -17,7 +17,7 @@ Operation process:
 - 2: Trimodal dataset DAIC_woz training code: folder 'src_DAIC_3.85'
 
 
-- 3: Trimodal dataset DAIC_woz training code: folder 'src_AVEC2014'	
+- 3: Trimodal dataset AVEC2014 training code: folder 'src_AVEC2014'	
 
 
 ## Dataset
