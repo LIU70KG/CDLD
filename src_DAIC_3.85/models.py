@@ -345,8 +345,9 @@ class MISA_CMDC(nn.Module):
             # pred = self.fc_score(features_sample)
             pred = self.fc_score(h)
             pred_center_score = self.fc_center_score(self.centers.data)
-            label_area = label_area.view(-1).long()
-            centers_batch = self.centers[label_area]  # (batch_size, feat_dim)
+            # 获取预测的类别索引（不使用真实标签）
+            pred_class_index = torch.argmax(p_class, dim=1)  # (batch_size,)
+            centers_batch = self.centers[pred_class_index]  # (batch_size, feat_dim)
             # features_shift = features_class - centers_batch
             features_shift = torch.cat((h, centers_batch), dim=1)
             # features_shift = h - centers_batch
@@ -660,8 +661,9 @@ class Simple_Fusion_Network(nn.Module):
             # pred = self.fc_score(features_sample)
             pred = self.fc_score(h)
             pred_center_score = self.fc_center_score(self.centers.data)
-            label_area = label_area.view(-1).long()
-            centers_batch = self.centers[label_area]  # (batch_size, feat_dim)
+            # 获取预测的类别索引（不使用真实标签）
+            pred_class_index = torch.argmax(p_class, dim=1)  # (batch_size,)
+            centers_batch = self.centers[pred_class_index]  # (batch_size, feat_dim)
             # features_shift = features_class - centers_batch
             features_shift = torch.cat((h, centers_batch), dim=1)
             # features_shift = h - centers_batch
