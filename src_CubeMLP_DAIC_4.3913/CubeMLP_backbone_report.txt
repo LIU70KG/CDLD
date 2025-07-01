@@ -1,0 +1,4 @@
+[I 2025-06-04 20:27:06,518] Trial 5 finished with value: 4.391317367553711 and parameters: {'reset_seed1': 304, 'activation': 'relu'}. Best is trial 5 with value: 4.391317367553711.
+ test_best_MAE:-----------4.391317367553711------------ | RMSE:5.96227502822876 | Pearson:0.4320686472070478 |
+precision:0.6666666666666666 | recall:0.2857142857142857 | f1:0.4 | accuracy:0.7446808510638298 |
+best_mae:4.391317367553711 | best_rmse:5.7865519523620605 | best_f1:0.6666666666666666 | best_accuracy:0.8297872340425532 |

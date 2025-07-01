@@ -1,0 +1,10 @@
+Best parameters: {'reset_seed1': 710, 'batch_size': 64, 'activation': 'leakyrelu'}
+Best MAE: 6.963607311248779
+[I 2025-05-30 15:32:15,564] Trial 199 finished with value: 8.820860862731934 and parameters: {'reset_seed1': 472, 'batch_size': 64, 'activation': 'relu'}. Best is trial 139 with value: 6.963607311248779.sim_weight:0.5 | class_weight:15.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:0.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.978274345397949------------ | RMSE:9.971189498901367 | Pearson:0.5754869756584158 |
+precision:0.8421052631578947 | recall:0.64 | f1:0.7272727272727273 | accuracy:0.76 | multiclass_acc:0.56 |
+best_mae:6.978274345397949 | best_rmse:9.708403587341309 | best_f1:0.76 | best_accuracy:0.76 | best_multiclass_acc:0.66 |
+sim_weight:0.5 | class_weight:15.0 | shifting_weight:3.0 | order_center_weight:1.0 | ce_loss_weight:0.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------6.978274345397949------------ | RMSE:9.971189498901367 | Pearson:0.5754869756584158 |
+precision:0.8421052631578947 | recall:0.64 | f1:0.7272727272727273 | accuracy:0.76 | multiclass_acc:0.56 |
+best_mae:6.978274345397949 | best_rmse:9.708403587341309 | best_f1:0.76 | best_accuracy:0.76 | best_multiclass_acc:0.66 |

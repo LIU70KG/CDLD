@@ -1,0 +1,4 @@
+sim_weight:0.5 | class_weight:30.0 | shifting_weight:1.0 | order_center_weight:1.0 | ce_loss_weight:1.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------7.369799613952637------------ | RMSE:9.80395793914795 | Pearson:0.2781103178591332 |-------------------------------------------
+precision:0.7894736842105263 | recall:0.26657620041753653 | f1:0.5913240418118467 | accuracy:0.5610766045548654 | multiclass_acc:0.4813664596273292 |
+best_mae:7.369799613952637 | best_rmse:9.187687873840332 | best_f1:0.5795339412360689 | best_accuracy:0.6086956521739131 | best_multiclass_acc:0.5072463768115942 |

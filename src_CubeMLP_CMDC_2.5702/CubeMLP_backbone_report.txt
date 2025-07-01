@@ -1,0 +1,16 @@
+class_weight:5.0 | shifting_weight:2.0 | order_center_weight:1.5 | ce_loss_weight:3.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------3.653101682662964------------ | RMSE:5.5150017738342285 | Pearson:0.5199260969827662 |
+precision:1.0 | recall:0.0 | f1:0.0 | accuracy:0.6666666666666666 |
+best_mae:3.653101682662964 | best_rmse:5.454423427581787 | best_f1:0.0 | best_accuracy:0.6666666666666666 |
+class_weight:5.0 | shifting_weight:2.0 | order_center_weight:1.5 | ce_loss_weight:3.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------3.498185396194458------------ | RMSE:5.422639846801758 | Pearson:0.5502930929494871 |
+precision:1.0 | recall:0.0 | f1:0.0 | accuracy:0.6666666666666666 |
+best_mae:3.498185396194458 | best_rmse:5.3176655769348145 | best_f1:0.0 | best_accuracy:0.6666666666666666 |
+class_weight:5.0 | shifting_weight:2.0 | order_center_weight:1.5 | ce_loss_weight:3.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------2.5702168941497803------------ | RMSE:4.515409469604492 | Pearson:0.6664308677186023 |
+precision:1.0 | recall:0.3333333333333333 | f1:0.5 | accuracy:0.7777777777777778 |
+best_mae:2.5702168941497803 | best_rmse:4.450551986694336 | best_f1:0.5 | best_accuracy:0.7777777777777778 |
+[I 2025-06-04 20:39:33,205] Trial 1 finished with value: 2.5702168941497803 and parameters: {'reset_seed1': 188, 'activation': 'prelu'}. Best is trial 1 with value: 2.5702168941497803.class_weight:5.0 | shifting_weight:2.0 | order_center_weight:1.5 | ce_loss_weight:3.0 | pred_center_score_weight:0.0
+ test_best_MAE:-----------2.5702168941497803------------ | RMSE:4.515409469604492 | Pearson:0.6664308677186023 |
+precision:1.0 | recall:0.3333333333333333 | f1:0.5 | accuracy:0.7777777777777778 |
+best_mae:2.5702168941497803 | best_rmse:4.450551986694336 | best_f1:0.5 | best_accuracy:0.7777777777777778 |
