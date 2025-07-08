@@ -32,7 +32,7 @@ class DAIC_WOZ:
         try:
 
             self.dev = load_pickle(DATA_PATH + '/valid_data_paragraph_concat.pkl')['valid']  # 35
-            self.train = load_pickle(DATA_PATH + '/train_valid_data_paragraph_concat.pkl')['train_valid']  # 142
+            self.train = load_pickle(DATA_PATH + '/train_valid_data_paragraph_concat.pkl')['train_valid']  # train+valid 合并
             self.test = load_pickle(DATA_PATH + '/test_data_paragraph_concat.pkl')['test']  # 47
             self.word2id = None
             self.pretrained_emb = None
