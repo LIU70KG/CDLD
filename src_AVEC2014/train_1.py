@@ -92,8 +92,8 @@ def get_config(parse=True, **optional_kwargs):
     parser.add_argument('--n_epoch', type=int, default=1000)  # sota 1000
     parser.add_argument('--patience', type=int, default=300)  # sota 80
 
-    parser.add_argument('--diff_weight', type=float, default=0.3)
-    parser.add_argument('--sim_weight', type=float, default=0.5)   # ---------
+    parser.add_argument('--diff_weight', type=float, default=0.3)  # MISA 超参数
+    parser.add_argument('--sim_weight', type=float, default=0.5)   # MISA 超参数
     parser.add_argument('--sp_weight', type=float, default=0.0)
     parser.add_argument('--recon_weight', type=float, default=1.0)
 
